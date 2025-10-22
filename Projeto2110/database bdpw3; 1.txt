@@ -1,0 +1,12 @@
+create database bdpw3;
+
+use bdpw3;
+
+
+create table demo( 
+    ID INT Auto_increment primary key,
+    name varchar (80),
+    idade int (3),
+    cpf varchar (11)
+
+    );
